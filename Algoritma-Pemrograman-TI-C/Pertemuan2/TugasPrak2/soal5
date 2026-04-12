@@ -1,0 +1,16 @@
+import math
+
+def jarak(x1, y1, x2, y2):
+    selisih_x = x2 - x1
+    selisih_y = y2 - y1
+
+    d = math.sqrt((selisih_x * selisih_x) + (selisih_y * selisih_y))
+    return d
+
+x1 = 0
+y1 = 0
+x2 = 3
+y2 = 4
+
+hasil = jarak(x1, y1, x2, y2)
+print("Jarak =", hasil)

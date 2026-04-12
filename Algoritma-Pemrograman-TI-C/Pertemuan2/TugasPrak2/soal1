@@ -1,0 +1,14 @@
+def rata_rata(nilai):
+    if len(nilai) == 0:
+        return "Data Kosong"
+    
+    total = sum(nilai)
+    rata = total / len(nilai)
+    return rata
+
+data_nilai = [80, 75, 90, 60, 85]
+hasil = rata_rata(data_nilai)
+
+print("Rata-Rata Nilai:", hasil)
+
+
