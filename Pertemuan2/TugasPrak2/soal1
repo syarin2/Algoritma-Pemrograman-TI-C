@@ -10,3 +10,25 @@ data_nilai = [80, 75, 90, 60, 85]
 hasil = rata_rata(data_nilai)
 
 print("Rata-Rata Nilai:", hasil)
+
+buku = [
+    ["Kalkulus", 2000],
+    ["Algoritma Pemogrman", 2500],
+    ["Statistik", 3000],
+    ["Aljabar", 3500],
+    ["Struktur Data", 4000]
+]
+
+print ("Perpustakaan “Cerdas Ilmu”")
+
+for i in range(len(buku)): 
+    print(i+1,".",buku [i][0], "Rp", buku[i][1])
+
+pilih = int(input("Pilih buku: "))
+
+if pilih >=1 and pilih <=5:
+    print("buku:", buku[pilih-1][0])
+    print("harga:", buku[pilih-1][1])
+
+else:
+    print("buku tidak tersedia")
