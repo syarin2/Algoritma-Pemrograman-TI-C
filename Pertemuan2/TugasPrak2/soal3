@@ -1,9 +1,0 @@
-def jumlah_digit(n):
-    if n == 0:
-        return 0
-    else:
-        return (n % 10) + jumlah_digit(n // 10)
-    
-angka = 1234
-hasil = jumlah_digit(angka)
-print("Jumlah digit dari", angka, "adalah:", hasil)
